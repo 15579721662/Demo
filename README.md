@@ -1,3 +1,28 @@
+ui_automation_project/
+│
+├── tests/                # 测试用例目录
+│   └── test_example.py    # 示例测试文件
+│
+├── conftest.py            # pytest 配置文件
+├── pytest.ini             # pytest 配置文件
+├── logging.conf           # 日志配置文件
+└── requirements.txt       # 依赖包文件
+
+所有需要的依赖包
+playwright
+pytest
+pytest-playwright
+pytest-html
+pytest-logger
+logging
+pytest_html
+io
+os
+time
+unittest
+datetime
+
+
 一、怎么执行自动化测试
 
 1开发提测前自用，配置环境和工具，下载脚本执行，可通过测试报告查看执行情况和结果；
