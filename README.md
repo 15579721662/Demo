@@ -1,12 +1,10 @@
 ui_automation_project/
 
-│
 
 ├── tests/                # 测试用例目录
 
 │   └── test_example.py    # 示例测试文件
 
-│
 
 ├── conftest.py            # pytest 配置文件
 
